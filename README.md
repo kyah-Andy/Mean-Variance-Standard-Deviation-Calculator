@@ -1,42 +1,63 @@
-# Mean-Variance-Standard Deviation Calculator
+# 📊 Mean-Variance-Standard Deviation Calculator
 
-## Author
-Andy Razon
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-orange.svg)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen.svg)
 
 ---
 
-## 📌 Project Description
+## 👨‍💻 Author
+**Andy Razon**
 
-This project is a Python function that uses **NumPy** to calculate statistical values (mean, variance, standard deviation, max, min, and sum) from a 3×3 matrix created from a list of 9 numbers.
+---
 
-It returns the results for:
-- Columns (axis = 0)
-- Rows (axis = 1)
-- Flattened matrix (all values)
+## 📌 Overview
+
+This project is a Python-based statistical calculator built using **NumPy**.  
+It processes a list of 9 numbers, converts it into a 3×3 matrix, and computes key statistical metrics across different axes.
 
 ---
 
 ## 🚀 Features
 
-- Input validation (must contain exactly 9 numbers)
+- Validates input (must contain exactly 9 numbers)
 - Converts list into a 3×3 NumPy array
-- Computes:
+- Performs statistical analysis:
   - Mean
   - Variance
   - Standard Deviation
   - Maximum value
   - Minimum value
   - Sum
-- Returns results in a structured dictionary
+- Computes results across:
+  - Columns (axis = 0)
+  - Rows (axis = 1)
+  - Flattened matrix
 
 ---
 
-## 📦 Requirements
+## ⚙️ How to Run
 
-- Python 3.x
-- NumPy
+### 1. Clone or download this repository
 
-Install NumPy if not installed:
+Make sure all files are in the same folder:
+- `mean_vr_std.py`
+- `main.py`
+
+---
+
+### 2. Run the program
+
+Open terminal in the project folder and run:
+
+```bash
+python3 main.py
+
+### Install dependencies
+
+---
+
+Install NumPy using:
 
 ```bash
 pip install numpy
