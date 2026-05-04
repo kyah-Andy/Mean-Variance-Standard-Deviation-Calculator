@@ -61,3 +61,6 @@ Install NumPy using:
 
 ```bash
 pip install numpy
+```
+
+📜 License This project is part of the freeCodeCamp curriculum and is intended for educational purposes.
